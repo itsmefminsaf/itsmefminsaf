@@ -1,12 +1,27 @@
 # Hello there🥳 I am Insaf👋👋
 
-## A full-stack web developer with 4 years of exp🏆🏆🏆🏆
+## A full-stack web developer with 4 years of exp🏆🏆🏆🏆 and keen interenst to explore tech stuffs..
 
 
-### I know
-* HTML,CSS and JS
-* Node.js, React.js and Next.js
+### Known languages..
 * Python
+* C
+* HTML
+* JavaScript
+* CSS
+
+### Known frameworks..
+* React.js
+* Next.js
 * Django
-* C **(Learing..)**
-* MongoDB
+
+### Toos using
+* Linux
+* VSCode
+* Docker
+* Git(Github)
+
+### Other interest..
+* AI
+* IoT
+* OS
