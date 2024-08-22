@@ -7,7 +7,7 @@ import profilepic from "../../public/profilepic.jpg";
 
 const page = () => {
   return (
-    <main className="flex items-center justify-around flex-col sm:flex-row w-full h-screen">
+    <main className="flex items-center justify-around sm:justify-evenly flex-col sm:flex-row w-full h-screen">
       <div>
         <Image src={profilepic} alt="me" className="rounded-3xl w-64 sm:w-80" />
       </div>
