@@ -7,21 +7,15 @@ import profilepic from "../../public/profilepic.jpg";
 
 const page = () => {
   return (
-    <main className="flex items-center justify-around flex-col w-full h-screen">
+    <main className="flex items-center justify-around flex-col sm:flex-row w-full h-screen">
       <div>
-        <Image
-          src={profilepic}
-          alt="me"
-          width={256}
-          height={256}
-          className="rounded-3xl"
-        />
+        <Image src={profilepic} alt="me" className="rounded-3xl w-64 sm:w-80" />
       </div>
       <div className="flex items-center justify-around flex-col gap-4">
         <h1 className="text-white text-7xl font-extrabold">FM Insaf</h1>
         <p className="text-slate-300">
-          Find me on internet{" "}
-          <span className="bg-slate-400 text-black opacity-85 rounded-lg px-2 py-1">
+          Find me on internet
+          <span className="bg-slate-400 text-black opacity-85 rounded-lg ml-2 pl-1 pr-1.5 py-1">
             @itsmefminsaf
           </span>
         </p>
@@ -38,7 +32,7 @@ const page = () => {
             <Image src={github} alt="github profile" width={36} height={36} />
           </Link>
         </div>
-      </div>{" "}
+      </div>
     </main>
   );
 };
