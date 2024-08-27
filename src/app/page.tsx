@@ -14,7 +14,7 @@ const page = () => {
       <div className="flex items-center justify-around flex-col gap-4">
         <h1 className="text-white text-7xl font-extrabold">FM Insaf</h1>
         <p className="text-slate-300">
-          Find me on internet
+          Find me on social medias
           <span className="bg-slate-400 text-black opacity-85 rounded-lg ml-2 pl-1 pr-1.5 py-1">
             @itsmefminsaf
           </span>
