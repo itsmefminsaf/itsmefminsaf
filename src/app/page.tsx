@@ -42,6 +42,14 @@ const page = () => {
               height={36}
             />
           </Link>
+          <Link href="https://chess.com/member/itsmefminsaf" target="_blank">
+            <Image
+              src="chess.png"
+              alt="github profile"
+              width={20}
+              height={10}
+            />
+          </Link>
         </div>
       </div>
     </main>
