@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
   return (
     <html lang="en">
-      <body className="bg-slate-950 font-sans">{children}</body>
+      <body className="bg-bg font-sans text-primary">{children}</body>
     </html>
   );
 };

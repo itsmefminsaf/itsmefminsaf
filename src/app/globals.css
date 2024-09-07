@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.child {
+  @apply bg-[#444] rounded-xl px-3 py-2 shadow-md hover:rounded-lg duration-500;
+}
