@@ -1,6 +1,7 @@
 import { Metadata } from "next";
-import React, { ReactNode } from "react";
+import React, { ReactNode, Suspense } from "react";
 import "./globals.css";
+import Loading from "./loading";
 
 export const metadata: Metadata = {
   title: "Insaf | Portfolio | @itsmefminsaf",
@@ -11,7 +12,9 @@ export const metadata: Metadata = {
 const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
   return (
     <html lang="en">
-      <body className="bg-black-600 font-sans text-white">{children}</body>
+      <body className="bg-black-600 font-sans text-white">
+        <Suspense fallback={<Loading />}>{children}</Suspense>
+      </body>
     </html>
   );
 };
