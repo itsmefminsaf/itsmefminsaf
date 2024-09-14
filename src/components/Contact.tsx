@@ -4,8 +4,8 @@ import contacts from "../data/Contact.json";
 
 const Contact = () => {
   return (
-    <div className="grid-item row-span-2 h-fit">
-      <h4 className="item-title">Contact me</h4>
+    <div className="grid-item h-fit">
+      <h4 className="item-title">Find me</h4>
       <ul className="flex gap-3 flex-wrap flex-grow">
         {contacts?.map((contact, i) => {
           return (

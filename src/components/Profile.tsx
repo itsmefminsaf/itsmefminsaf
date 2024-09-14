@@ -8,6 +8,7 @@ const Profile = () => {
       <Image
         width={100}
         height={100}
+        loading="eager"
         src={profile.src}
         alt="profile picture"
         className="w-[90%] rounded-full shadow-xl hover:shadow-white duration-500"

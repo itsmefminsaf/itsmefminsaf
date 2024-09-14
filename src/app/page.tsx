@@ -8,9 +8,9 @@ const page = () => {
   return (
     <main className="grid grid-cols-[1fr_2fr] gap-3 p-3">
       <Profile />
+      <Name />
       <About />
       <Contact />
-      <Name />
       <Projects />
     </main>
   );
