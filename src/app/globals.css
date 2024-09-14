@@ -10,9 +10,9 @@
     @apply text-wheat text-xl mb-2;
   }
   .skill {
-    @apply text-center bg-black-600 p-3 rounded-lg duration-100 hover:scale-105 min-w-28;
+    @apply bg-black-600 p-3 rounded-lg duration-100 hover:scale-105 min-w-28 text-center flex-auto;
   }
   .contact {
-    @apply bg-black-400 p-3 rounded-lg duration-100 hover:scale-105 min-w-28 flex justify-center items-center gap-2;
+    @apply bg-black-400 p-3 rounded-lg duration-100 hover:scale-105 min-w-28 flex-auto flex items-center justify-center gap-2;
   }
 }

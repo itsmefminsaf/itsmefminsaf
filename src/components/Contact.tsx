@@ -4,21 +4,20 @@ import contacts from "../data/Contact.json";
 
 const Contact = () => {
   return (
-    <div className="grid-item row-span-2">
+    <div className="grid-item row-span-2 h-fit">
       <h4 className="item-title">Contact me</h4>
-      <ul className="flex gap-3 flex-wrap justify-stretch items-stretch">
+      <ul className="flex gap-3 flex-wrap flex-grow">
         {contacts?.map((contact, i) => {
           return (
-            <a href={contact.profile} target="_blank">
-              <li key={i} className="contact">
-                <Image
-                  src={contact.favicon}
-                  width={20}
-                  height={20}
-                  alt={`${contact.name} favicon`}
-                />
-                {contact.name}
-              </li>
+            <a href={contact.profile} className="contact" key={i}>
+              <Image
+                src={contact.favicon}
+                width={20}
+                height={20}
+                alt={`${contact.name} favicon`}
+                className="inline-block"
+              />
+              <p>{contact.name}</p>
             </a>
           );
         })}
