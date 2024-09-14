@@ -20,6 +20,7 @@ const config: Config = {
           "800": "#222",
           "900": "#111",
         },
+        wheat: "#f5deb3",
       },
     },
   },
