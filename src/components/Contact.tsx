@@ -4,9 +4,9 @@ import contacts from "../data/Contact.json";
 
 const Contact = () => {
   return (
-    <div className="grid-item h-fit">
+    <div className="grid-item h-full overflow-y-scroll">
       <h4 className="item-title">Find me</h4>
-      <ul className="flex gap-3 flex-wrap flex-grow">
+      <ul className="flex gap-3 flex-wrap">
         {contacts?.map((contact, i) => {
           return (
             <a href={contact.profile} className="contact" key={i}>
