@@ -2,8 +2,8 @@ import React from "react";
 
 const Name = () => {
   return (
-    <div className="grid-item h-fit">
-      <h1 className="text-4xl ml-14">Mohamed Insaf</h1>
+    <div className="grid-item">
+      <h1 className="text-2xl text-center md:text-4xl">Mohamed Insaf</h1>
     </div>
   );
 };

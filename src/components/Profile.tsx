@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Profile = () => {
   return (
-    <div className="grid-item row-span-2 flex items-center justify-center aspect-square">
+    <div className="place-self-center grid-item w-[95vw] md:w-full md:row-span-2 flex items-center justify-center aspect-square">
       <Image
         width={100}
         height={100}

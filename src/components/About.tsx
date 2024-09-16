@@ -4,7 +4,7 @@ import Skill from "./Skill";
 
 const About = () => {
   return (
-    <div className="grid gap-4 row-span-2 grid-rows-[2fr_1fr]">
+    <div className="grid gap-4 grid-rows-[auto_auto] md:row-span-2">
       <Bio />
       <Skill />
     </div>

@@ -2,10 +2,10 @@ import React from "react";
 
 const Bio = () => {
   return (
-    <div className="grid-item overflow-y-scroll text-justify">
-      <h4 className="item-title">Bio</h4>
+    <div className="grid-item overflow-y-scroll h- min-[1150px]:h-fit text-justify">
+      <h4 className="item-title">About me...</h4>
       <p>👋Hello, there!! </p>
-      <p className="leading-7 first-letter:text-4xl first-letter:font-bold">
+      <p className="leading-7">
         I am a full-stack web developer with 4️⃣ years of experience in this
         field. Not only in web development but also I have interest to explore
         all the tech stuffs like game development, ₿lock-chain technology and
