@@ -13,8 +13,17 @@
     "name": "Fiverr",
     "favicon": "https://fiverr.com/favicon.ico",
     "profile": "https://fiverr.com/itsmefminsaf"
-  }
-,{"name":"X","favicon":"https://x.com/favicon.ico","profile":"https://x.com/itsmefminsaf"}
+  },
+  {
+    "name": "X",
+    "favicon": "https://x.com/favicon.ico",
+    "profile": "https://x.com/itsmefminsaf"
+  },
+  {
+    "name": "Discord",
+    "favicon": "https://discord.com/favicon.ico",
+    "profile": "https://www.chess.com/member/itsmefminsaf"
+  },
   {
     "name": "Chess.com",
     "favicon": "https://chess.com/favicon.ico",
