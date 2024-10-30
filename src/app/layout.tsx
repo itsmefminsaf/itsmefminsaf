@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const RootLayout = ({ children }: Readonly<{ children: ReactNode }>) => {
   return (
     <html lang="en">
-      <body className="bg-black-600 font-sans text-white">
+      <body className="bg-slate-800 font-sans text-white">
         <Suspense fallback={<Loading />}>{children}</Suspense>
       </body>
     </html>

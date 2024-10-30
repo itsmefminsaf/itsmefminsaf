@@ -1,19 +1,38 @@
-import About from "@/components/About";
-import Contact from "@/components/Contact";
-import Name from "@/components/Name";
-import Profile from "@/components/Profile";
-import Projects from "@/components/Projects";
-import Skill from "@/components/Skill";
+import profilepic from "../../public/profilepic.jpg";
+import linkedin from "../../public/in.png";
+import github from "../../public/github.png";
+
+import Image from "next/image";
+import Link from "next/link";
 
 const page = () => {
   return (
-    <main className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1fr_2fr] min-[1200px]:grid-cols-[2fr_3fr] grid-rows-[auto_auto_auto_auto_auto] md:grid-rows-[auto_auto_auto_auto] gap-3 p-3">
-      <Profile />
-      <Name />
-      <About />
-      <Contact />
-      <Skill />
-      <Projects />
+    <main className="flex items-center justify-around flex-col landscape:flex-row w-full h-screen">
+      <div>
+        <Image src={profilepic} alt="me" className="rounded-3xl w-64 sm:w-80" />
+      </div>
+      <div className="flex items-center justify-around flex-col gap-4">
+        <h1 className="text-white text-7xl font-extrabold">FM Insaf</h1>
+        <p className="text-slate-300">
+          Find me on internet
+          <span className="bg-slate-400 text-black opacity-85 rounded-lg ml-2 pl-1 pr-1.5 py-1">
+            @itsmefminsaf
+          </span>
+        </p>
+        <div className="flex gap-2 items-center justify-evenly p-7 rounded-lg border-3">
+          <Link href="https://linkedin.com/in/itsmefminsaf" target="_blank">
+            <Image
+              src={linkedin}
+              alt="linked in profile"
+              width={36}
+              height={36}
+            />
+          </Link>
+          <Link href="https://github.com/itsmefminsaf" target="_blank">
+            <Image src={github} alt="github profile" width={36} height={36} />
+          </Link>
+        </div>
+      </div>
     </main>
   );
 };
