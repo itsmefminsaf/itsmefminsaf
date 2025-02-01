@@ -9,8 +9,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "#121212",
+        foreground: "aliceblue",
+      },
+      fontFamily: {
+        roboto: "Roboto",
       },
     },
   },
