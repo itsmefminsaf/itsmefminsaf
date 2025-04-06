@@ -1,3 +1,3 @@
 # Hello there
 
-### Founed of Cassive inc.
+### Founder of Cassive inc.
