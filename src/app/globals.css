@@ -1,6 +1,9 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-prussian-blue: hsl(208, 40%, 18%);
+  --color-platinum: hsl(45, 14%, 89%);
+  --color-glaucous: hsl(218, 27%, 57%);
+  --color-powder-blue: hsl(216, 27%, 76%);
+  --color-quinacrine-magenta: hsl(338, 24%, 40%);
 }
