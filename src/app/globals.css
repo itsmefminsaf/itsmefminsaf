@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-prussian-blue: hsl(208, 40%, 18%);
+  --color-sea-salt: hsl(0, 0%, 97%);
+  --color-sea-green: hsl(159, 100%, 28%);
   --color-platinum: hsl(45, 14%, 89%);
-  --color-glaucous: hsl(218, 27%, 57%);
-  --color-powder-blue: hsl(216, 27%, 76%);
-  --color-quinacrine-magenta: hsl(338, 24%, 40%);
+  --color-rich-black: hsl(227, 23%, 8%);
+  --color-night: hsl(210, 40%, 4%);
 }
