@@ -7,3 +7,15 @@
   --color-rich-black: hsl(227, 23%, 8%);
   --color-night: hsl(210, 40%, 4%);
 }
+
+@layer utilities {
+  .bg-grid {
+    background-image: linear-gradient(
+        to left,
+        hsla(0, 0%, 100%, 0.05) 1px,
+        transparent 1px
+      ),
+      linear-gradient(to bottom, hsla(0, 0%, 100%, 0.05) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+}

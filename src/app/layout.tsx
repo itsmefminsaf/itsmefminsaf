@@ -10,7 +10,12 @@ export const metadata: Metadata = {
 const RootLayout = ({ children }: Readonly<{ children: React.ReactNode }>) => {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="bg-black">
+        <div className="fixed pointer-events-none overflow-hidden size-full bg-position-[-100px_-100px] bg-radial from-green-950 to-transparent"></div>
+        <div className="fixed pointer-events-none overflow-hidden size-full bg-position-[100px_100px] bg-radial from-blue-950 to-transparent"></div>
+        <div className="fixed pointer-events-none overflow-hidden size-full bg-grid"></div>
+        {children}
+      </body>
     </html>
   );
 };
