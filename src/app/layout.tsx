@@ -11,9 +11,9 @@ const RootLayout = ({ children }: Readonly<{ children: React.ReactNode }>) => {
   return (
     <html lang="en">
       <body className="bg-black">
-        <div className="fixed pointer-events-none overflow-hidden size-full bg-position-[-100px_-100px] bg-radial from-green-950 to-transparent"></div>
-        <div className="fixed pointer-events-none overflow-hidden size-full bg-position-[100px_100px] bg-radial from-blue-950 to-transparent"></div>
-        <div className="fixed pointer-events-none overflow-hidden size-full bg-grid"></div>
+        <div className="fixed -z-50 pointer-events-none overflow-hidden size-full bg-position-[-100px_-100px] bg-radial from-green-950 to-transparent"></div>
+        <div className="fixed -z-50 pointer-events-none overflow-hidden size-full bg-position-[100px_100px] bg-radial from-blue-950 to-transparent"></div>
+        <div className="fixed -z-50 pointer-events-none overflow-hidden size-full bg-grid"></div>
         {children}
       </body>
     </html>
