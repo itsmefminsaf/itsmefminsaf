@@ -1,4 +1,3 @@
-import insaf from "@/assets/Insaf.png";
 import Image from "next/image";
 import { BsGithub, BsLinkedin, BsReddit } from "react-icons/bs";
 import { GiSriLanka } from "react-icons/gi";
@@ -15,12 +14,7 @@ const Header = () => {
 
       {/* the profile picture */}
       <div className="mx-auto -mt-32 aspect-square w-48 overflow-hidden rounded-full border-8 border-neutral-900">
-        <Image
-          src={insaf.src}
-          width={256}
-          height={256}
-          alt="Profile picture of Insaf"
-        />
+        <div className="bg-neutral-500"></div>
       </div>
 
       <div className="mb-3 text-center">
